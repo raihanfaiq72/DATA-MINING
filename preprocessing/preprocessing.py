@@ -44,3 +44,27 @@ print(x)
 print(y)
 print(x_train)
 print(x_test)
+
+
+# hitung entropy dan gain serta tentukan pohon keputusan yang terbentuk dari contoh kasus keputusan bermain tenis dibawah ini
+# --------------------------------------------------------
+# outlook     temprature      humadity    windy       play
+# --------------------------------------------------------
+# sunny       hot             high        no          Dont play
+# sunny       hot             high        yes         Dont play
+# cloudy      hot             high        no          play
+# rainy       mild            high        no          play
+# rainy       cool            normal      no          play
+# rainy       cool            normal      yes         play
+# cloudy      cool            normal      yes         play
+# sunny       mild            high        no          Dont play
+# sunny       cool            normal      no          play
+# rainy       mild            normal      no          play
+# sunny       mild            normal      yes         play
+# cloudy      mild            high        yes         play
+# cloudy      hot             normal      no          play
+# rainy       mild            high        yes         Dont play
+
+
+# --------------
+# kerjakan latihan tahapan klasifikasi dengan decesion tree pada latihan sebelumnya , dataset bisa diganti kemudian simpan dalam decisiontree.py
